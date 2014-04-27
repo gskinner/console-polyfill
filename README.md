@@ -3,11 +3,11 @@ console-polyfill
 
 Simple console polyfill for all console methods.
 
-These console methods are assigned an empty function if they do not exist: *log, profile, profileEnd, timeStamp, trace*
+These console methods are assigned an empty function if they do not exist: **log, profile, profileEnd, timeStamp, trace**
 
-These are aliased to console.log if they do not exist: *debug, info, warn, error, dir, dirxml*
+These are aliased to console.log if they do not exist: **debug, info, warn, error, dir, dirxml**
 
-These are defined with appropriate functionality if they do not exist (see below for more details): *group, groupCollapsed, groupEnd, time, timeEnd, assert, count, clear*
+These are defined with appropriate functionality if they do not exist (see below for more details): **group, groupCollapsed, groupEnd, time, timeEnd, assert, count, clear**
 
 Note that some browsers may define console methods without fully implementing them (ex. console.group in FireFox 28).
 
