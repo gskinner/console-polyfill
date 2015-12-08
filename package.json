@@ -1,0 +1,24 @@
+{
+  "name": "console-polyfill",
+  "version": "0.0.1",
+  "description": "Simple console polyfill for all console methods.",
+  "main": "console.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gskinner/console-polyfill.git"
+  },
+  "keywords": [
+    "console",
+    "polyfill",
+    "assert"
+  ],
+  "author": "Grant Skinner <info@gskinner.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gskinner/console-polyfill/issues"
+  },
+  "homepage": "https://github.com/gskinner/console-polyfill"
+}
